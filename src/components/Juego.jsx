@@ -39,7 +39,6 @@ export const Juego = () => {
 
   //Cuando numAleatorio ya este seteado
   useEffect(() => {
-    console.log(nmAleatorio);
     setPalabra(PALABRAS[nmAleatorio].palabra.split(""));
     escribirCorrecta(PALABRAS[nmAleatorio].palabra);
   }, [nmAleatorio]);
@@ -73,8 +72,7 @@ export const Juego = () => {
    }
   }, [letrasCorrectas])
 
-  console.log("Palabra => ", palabra);
-  console.log(misLetras);
+ 
 
   return (
     <>
