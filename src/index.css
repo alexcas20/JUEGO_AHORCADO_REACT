@@ -1,0 +1,94 @@
+
+
+.cont-palabra{
+    display: flex;
+    justify-content: space-around;
+}
+
+.raya{
+    margin: 2px;
+    border-bottom: 2px solid;
+    width: 32px;
+    height: 45px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cont-botones{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-botones button{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: 1px dashed #000;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 35px;
+    text-align: center;
+}
+
+/* imagen */
+
+.cont-imagen{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.cont-imagen img{
+    width: 30%;
+}
+
+.ganador{
+  display: flex;
+  flex-direction: column;
+}
+
+.ganador img{
+    width: 150px;
+    margin: 0 auto;
+   
+}
+
+.ganador button{
+    display: inline-block;
+    background-color: #44aa7e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.final img{
+    width: 150px;
+    margin: 4rem auto;
+}
+
+.final button{
+    display: block;
+    padding: 1rem;
+    background-color: #066a1c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
